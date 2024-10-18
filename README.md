@@ -18,7 +18,10 @@ A benchmarking study of individual somatic variant callers and voting-based ense
 ### Install
 
 R docker with all the dependencies
+
+```
 sudo singularity build Rsom.simg docker://ngsom/bioconductor-base
+``
 
 ### Data
 
@@ -26,7 +29,6 @@ sudo singularity build Rsom.simg docker://ngsom/bioconductor-base
 
 ### Run
 
+```
 singularity shell Rsom.simg
-
-#main script
-roc_analysis_guille_et_al.r
+``
