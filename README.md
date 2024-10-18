@@ -21,7 +21,7 @@ R docker with all the dependencies
 
 ```
 sudo singularity build Rsom.simg docker://ngsom/bioconductor-base
-``
+```
 
 ### Data
 
@@ -31,4 +31,4 @@ sudo singularity build Rsom.simg docker://ngsom/bioconductor-base
 
 ```
 singularity shell Rsom.simg
-``
+```
